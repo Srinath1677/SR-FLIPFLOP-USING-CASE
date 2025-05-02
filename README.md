@@ -33,7 +33,15 @@ By using three variable K-Map, we can get the simplified expression for next sta
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
 **Procedure**
+1.Type the program in Quartus software.
 
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For difference input combination generate the timing diagram.
 /* write all the steps invloved */
 
 **PROGRAM**
@@ -69,3 +77,4 @@ endmodule
 ![image](https://github.com/user-attachments/assets/53647fb1-9f95-482b-87f6-76023145b8ce)
 
 **RESULTS**
+ Thus the SR-FLIPFLOP using verilog was implemented and validated their functtionality using their function tables.
